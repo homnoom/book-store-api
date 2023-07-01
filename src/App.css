@@ -167,7 +167,8 @@ height: 27rem;
   outline: none;
   border: none;
   font-size: 17px;
-  background-color:#B0CBB0;
+ color: red;
+ background-color: #fff;
 }
 .inner-overlay .inner-box{
   margin-top: 30px;

@@ -1,5 +1,5 @@
 
-import book3 from './images/book3.jpg';
+
 import './App.css';
 
 const Modal = ({show,item,onClose}) => {
@@ -12,7 +12,7 @@ const Modal = ({show,item,onClose}) => {
         <>
             <div className="overlay">
                 <div className="inner-overlay">
-                    <button className="close"onClick={onClose}><i class="fa-solid fa-xmark"></i>wrong</button>
+                    <button className="close"onClick={onClose}><i>Close</i></button>
                     <div className="inner-box">
                         <img className="modalimg" src={thumbnail} alt="" />
                         <div className="info">
